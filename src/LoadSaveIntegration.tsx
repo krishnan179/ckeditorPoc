@@ -243,12 +243,10 @@ export default class LoadSaveIntegration extends Component<{}, LoadSaveIntegrati
 									window.editor = editor;
 
 									//this.refreshDisplayMode();
-								} }
-								watchdogConfig={undefined}
-								//disableWatchdog
+								} }								
 								editor={ ClassicEditorBuild.ClassicEditorWithRevisionHistory }
 								config={ {
-									extraPlugins: [ UsersIntegration, CommentsIntegration, TrackChangesIntegration, RevisionHistoryIntegration ],
+									extraPlugins: [ UsersIntegration, TrackChangesIntegration, RevisionHistoryIntegration ],
 									sidebar: {
 										container: this.sidebarElementRef.current
 									},
