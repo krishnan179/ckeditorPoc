@@ -13,9 +13,9 @@
     "@ckeditor/ckeditor5-autosave": "^40.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^40.0.0",
     "@ckeditor/ckeditor5-block-quote": "^40.0.0",
+    "@ckeditor/ckeditor5-ckbox": "^40.0.0",
     "@ckeditor/ckeditor5-cloud-services": "^40.0.0",
     "@ckeditor/ckeditor5-comments": "^40.0.0",
-    "@ckeditor/ckeditor5-ckbox": "^40.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^40.0.0",
     "@ckeditor/ckeditor5-essentials": "^40.0.0",
     "@ckeditor/ckeditor5-font": "^40.0.0",
@@ -31,7 +31,8 @@
     "@ckeditor/ckeditor5-revision-history": "^40.0.0",
     "@ckeditor/ckeditor5-table": "^40.0.0",
     "@ckeditor/ckeditor5-track-changes": "^40.0.0",
-    "ckbox": "^1.1.0"
+    "ckbox": "^1.1.0",
+    "typescript": "^5.3.2"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-dev-translations": "^39.1.0",
